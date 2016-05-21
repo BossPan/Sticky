@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>sticky</title>
+    <link href="sticky.css" rel="stylesheet">
+</head>
+<body>
+<form>
+    <label for="note">Text</label>
+    <input type="text" id="note">
+    <label for="color">Color</label>
+    <select id="color">
+        <option value="LightGoldenRodYellow">yellow</option>
+        <option value="PaleGreen">green</option>
+        <option value="LightPink">pink</option>
+        <option value="LightBlue">blue</option>
+    </select>
+    <input type="button" id="add-button" value="Add Sticky Note">
+    <input type="button" id="delete-all" value="Delete All Sticky Note">
+</form>
+<ul id="stickies"></ul>
+<script src="sticky.js" rel="script"></script>
+</body>
+</html>
